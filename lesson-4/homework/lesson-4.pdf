@@ -1,0 +1,23 @@
+What is the difference between "Merge" and "Append" in Power Query?
+
+Merge combines rows from two related tables based on a key column (like SQL JOIN).
+
+Append stacks rows from two tables with the same structure (like UNION in SQL).
+
+How do you split a "Full Name" column into "First Name" and "Last Name"?
+
+Go to Transform tab → Click Split Column → By Delimiter → Choose space ( ).
+
+What is "Pivot Columns" used for?
+
+It transforms row values into column headers. Used for summarizing or reshaping data.
+
+How do you undo a step in Power Query?
+
+In the "Applied Steps" pane (right-side), click the X next to the step to remove it.
+
+What is the purpose of "Reference" vs. "Duplicate" in queries?
+
+Duplicate = creates a copy of the query with same steps.
+
+Reference = creates a linked query starting from the result of the original.
